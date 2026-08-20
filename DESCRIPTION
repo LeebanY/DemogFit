@@ -1,0 +1,24 @@
+Package: demogfit
+Type: Package
+Title: Blockwise Composite-Likelihood Demographic Inference for Species Pairs
+Version: 0.4.1
+Authors@R: person("Leeban", "Yusuf", role = c("aut", "cre"), email = "example@example.com")
+Description: Fits closed-form Wilkinson-Herbots (2008, 2012) blockwise
+    composite-likelihood models (Strict Isolation, Isolation-with-Migration,
+    Isolation-with-Initial-Migration, and Secondary Contact) to the
+    blockwise pairwise-mutation-count distribution derived from a gIMble
+    blockwise site-frequency spectrum (bSFS). Provides per-model fitting
+    functions with user-specifiable parameter bounds, and a master function
+    that fits multiple models per species pair and reports which model is
+    best supported (or, at minimum, whether there is evidence for gene flow
+    via a Strict-Isolation-vs-Isolation-with-Migration comparison).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+Imports:
+    stats,
+    graphics
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

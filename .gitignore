@@ -1,0 +1,20 @@
+# R package build/check artifacts
+*.Rcheck/
+*.tar.gz
+/doc/
+/Meta/
+
+# R session/history files
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# OS/editor cruft
+.DS_Store
+*.swp
+
+# Common local-only scratch files - remove any of these lines if you
+# actually want to track something matching them
+test_*.R
+*.log
