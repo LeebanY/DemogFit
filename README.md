@@ -1,8 +1,8 @@
 # demogfit
 
 An R package for fitting closed-form Wilkinson-Herbots (2008, 2012)
-blockwise composite-likelihood demographic models to a pair of diverging
-populations, from a gIMble blockwise site-frequency spectrum (bSFS).
+blockwise composite-likelihood demographic models to a pair of diverged
+species/populations, from a gIMble blockwise site-frequency spectrum (bSFS).
 
 ## Models
 
