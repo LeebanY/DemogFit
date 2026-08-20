@@ -258,6 +258,12 @@ Y-linked data, or an intermediate value (e.g. ~3) for X/Z-linked loci.
 Note that `ploidy_scalar` only affects the reported Ne - divergence time
 and migration rate are unaffected by it, since it cancels algebraically.
 
+## Citation(s):
+If you have used this package for your work (thanks!), please cite the following:
+- Yusuf, L.H., Laetsch, D.R., Lohse, K. and Ritchie, M.G., 2026. Genomic analyses in Drosophila do not support the classic allopatric model of speciation. Evolution Letters, 10(2), pp.186-194.
+- Wilkinson-Herbots, H.M., 2012. The distribution of the coalescence time and the number of pairwise nucleotide differences in a model of population divergence or speciation with an initial period of gene flow. Theoretical population biology, 82(2), pp.92-108.
+- Wilkinson-Herbots, H.M., 2008. The distribution of the coalescence time and the number of pairwise nucleotide differences in the “isolation with migration” model. Theoretical Population Biology, 73(2), pp.277-288.
+
 ## A small note:
 Hi all, for transparency sake: much of the package was converted from Mathematica scripts to the R package with the help of Claude (Sonnet/Opus) models. This dramatically sped up the time it took to come up with these packages and I have tried to sanity check the results as much as possible, but LLMs are error-prone and something could've definitely slipped by. Of course, if you do spot something, please do raise an issue and I will try to fix it as quickly as I can. 
 
