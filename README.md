@@ -264,7 +264,7 @@ If you have used this package for your work (thanks!), please cite the following
 - Wilkinson-Herbots, H.M., 2008. The distribution of the coalescence time and the number of pairwise nucleotide differences in the “isolation with migration” model. Theoretical Population Biology, 73(2), pp.277-288.
 
 ## A small note:
-Hi all, for transparency sake: much of the package was converted from Mathematica scripts to the R package with the help of Claude (Sonnet/Opus) models. This dramatically sped up the time it took to come up finish putting together this package and I have tried to sanity check the results as much as possible, but LLMs are of course error-prone. If you do spot a bug or an issue with outputs, please do raise an issue and I will try to fix it as quickly as I can. 
+Hi all, for transparency sake: much of the package was converted from Mathematica scripts to the R package with the help of Claude (Sonnet/Opus) models. This dramatically sped up the time it took to finish this package and I have tried to sanity check the results as much as possible, but LLMs are of course error-prone. If you do spot a bug or an issue with outputs, please do raise an issue and I will try to fix it as quickly as I can. 
 
 ## License
 
